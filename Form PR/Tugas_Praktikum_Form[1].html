@@ -1,0 +1,80 @@
+.<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	<title>Daftar Akun</title>
+	<link rel="stylesheet" href="form.css" type="text/css">
+  </head>
+  <body>
+	  <div class="login">
+		  <h3>Daftar Akun</h3>
+		  <table>
+               <tr>
+                  <td>Nama Lengkap</td>
+                  <td>:</td>
+                  <td><input type="text" name="nama" size="30" placeholder="Masukan Nama Lengkap" class="form"></td>
+               </tr>
+               <tr>
+                    <td>NIM</td>
+                    <td>:</td>
+                    <td><input type="number" name="nim" size="30" placeholder="Masukan NIM" class="form"></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>:</td>
+                    <td><input type="date" name="tanggal_lahir" placeholder="Masukan Tanggal Lahir" size="30" class="form"></td>
+                </tr>
+                <tr>
+                    <td>Asal Kota</td>
+                    <td>:</td>
+                    <td><select name="asal_kota"  class="form">
+                            <option value="jember">Jember</option>
+                            <option value="Banyuwangi">Banyuwangi</option>
+                            <option value="Malang">Malang</option>
+                            <option value="Surabaya">Surabaya</option>
+                            <option value="Lamongan">Lamongan</option>
+                            </select></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="text" size="30" placeholder="Masukan Email" class="form">
+                        <select value="email"><option>@gmail.com</option>
+                            <option>@gmail.co.id</option>
+                            <option>@yahoo.com</option>
+                            <option>@yahoo.co.id</option>
+                           </select></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>:</td>
+                    <td><input type="password" name="password" size="30" placeholder="Masukan Password" class="form"></td>
+                </tr>
+                <tr>
+                    <td>Konfirmasi Password</td>
+                    <td>:</td>
+                    <td><input type="password" name="password" size="30" placeholder="Konfirmasi Password" class="form"></td>
+                </tr>
+                <tr>
+                    <td>Komentar Anda</td>
+                    <td>:</td>
+                    <td><textarea cols="30" rows="5">Masukan Komentar Anda</textarea></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td><input type="radio" name="jenis kelamin" value="Laki-laki"> Laki-laki
+                        <input type="radio" name="jenis kelamin" value="Perempuan"> Perempuan</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><input type="checkbox">Saya Meneyetujui persyaratan ini</td>
+                </tr>
+                <tr>
+                    <td><a href="http:\\www.google.com"><button type="button" class="simpan">Simpan</button></a></td>
+                </tr>
+            </table>
+		</div>
+  </body>
+</html>
